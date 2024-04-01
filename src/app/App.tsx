@@ -1,14 +1,11 @@
 import React from "react";
 import "./App.css";
-import Kevin from "@public/Kevin.jpg";
+import { Main } from "../routes/Main";
 
 export const App = () => {
     return (
         <React.Fragment>
-            <img 
-                src={Kevin} alt="Kevin Zietler"
-                height="600px" width="auto" 
-            />
+            <Main />
         </React.Fragment>
     );
 };
